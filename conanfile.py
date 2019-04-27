@@ -13,6 +13,9 @@ class OUIBlendishConan(ConanFile):
 
     _pkg_name = "oui-blendish"
 
+    def requirements(self):
+        self.requires.add("NanoVG/master@qno/testing")
+
     def source(self):
         url = "https://bitbucket.org/duangle/oui-blendish/get/eb226e17ec5b.zip"
         self.output.info("Downloading {}".format(url))
