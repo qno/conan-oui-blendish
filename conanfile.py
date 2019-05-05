@@ -3,10 +3,11 @@ import os
 
 class OUIBlendishConan(ConanFile):
     name = "OUIBlendish"
-    version = "default"
+    version = "latest"
     license = "MIT"
     author = "Leonard Ritter"
     url = "https://github.com/qno/conan-oui-blendish"
+    homepage = "https://bitbucket.org/duangle/oui-blendish"
     description = "Blendish - Blender 2.5 UI based theming functions for NanoVG."
 
     no_copy_source = True
